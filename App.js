@@ -5,7 +5,7 @@ import { createStore, combineReducers } from "redux";
 import { NavigationContainer } from "@react-navigation/native";
 import { Provider } from "react-redux";
 
-import productsReducer from "./store/reducers/product";
+import productsReducer from "./store/reducers/products";
 import ShopNavigator from "./navigation/ShopNavigator";
 
 const rootReducer = combineReducers({
